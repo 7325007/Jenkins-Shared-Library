@@ -10,4 +10,15 @@ class SharedLibraryTest extends GroovyTestCase {
     ])
     sharedLibrary.startBuild()
   }
+  
+  void testPrintDate() {
+    def sharedLibrary = new sharedLibrary([
+      echo: { String message ->
+          assert message == new Date().toString()
+          println(message)        
+      }
+    ])
+    sharedLibrary.printDate()
+  }
+  
 }
