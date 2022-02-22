@@ -1,4 +1,4 @@
-package com.hexaware.shredLib
+package com.hexaware.shredlib
 
 public class SharedLibrary {
 def steps
