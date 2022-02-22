@@ -9,3 +9,5 @@ https://www.jenkins.io/doc/book/pipeline/shared-libraries/
 - how to use shared Library
 	- in your pipeline use @Library("shared-lib-name") _
 	- you can now import classes and use them
+- Shared Library unit test
+	- test/com/hexaware/sharelib
