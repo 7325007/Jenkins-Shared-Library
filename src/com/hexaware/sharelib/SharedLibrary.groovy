@@ -10,4 +10,9 @@ def steps
   public void startBuild() {
     steps.echo "Hello, World!"
   }
+  
+  public void printDate() {
+    steps.echo new Date().toString();
+  }
 }
+
